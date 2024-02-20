@@ -3,4 +3,9 @@ body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 72px;    
+    max-width: 100dvw; /*viewport width dynamic for mobile*/
+}
+
+img{
+    width: 100%;
 }
