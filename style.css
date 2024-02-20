@@ -3,13 +3,17 @@ body {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: 72px;    
-    max-width: 100dvw; /*viewport width dynamic for mobile*/
+    max-width: 100dvw; /*100% of viewport width*/
 }
 
 img{
     width: 100%;
 }
 
+.small {
+    width: 150px;
+}
+
 p {
-    
+
 }
