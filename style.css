@@ -1,14 +1,16 @@
 header{
-   font-size: 75px;
-   max-width: 100dvw; /*100% of viewport width*/;
-    font-family:Gardenia ExtraBold;
-    color:white;
-    
+   
+  a{
+      font-size: 90px;
+      max-width: 100dvw; /*100% of viewport width*/;
+       font-family:Gardenia ExtraBold;
+       color:white;
+  }
 }
 h1{
     font-family:Gardenia ExtraBold;
     color:white;
-    margin-bottom: 1px;
+    margin-bottom: 4px;
 }
 
 /* Style the links inside the navigation bar */
