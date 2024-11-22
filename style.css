@@ -5,6 +5,11 @@ header{
     color:white;
     
 }
+h1{
+    font-family:Gardenia ExtraBold;
+    color:white;
+    margin-bottom: 1px;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -44,9 +49,31 @@ body{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+    transition: filter 0.5s;
+    cursor: pointer;
+}
+img:not(.fullscreen):hover{
+  filter:brightness(0.7);
+}
+img.fullscreen{
+  position:fixed;
+  top:50vh;
+  left:50vw;
+  width:80%;
+  translate:-50% -50%;
+  z-index:2;
+}
+main{
+  margin-top: 30px;
 }
 
-.small {
-    width: 150px;
+.dummy-bg.fullscreen{
+  background-color:white;
+  width:100vw;
+  height:100vh;
+  position:fixed;
+  top:0px;
+  left:0px;
+  z-index:1;
 }
