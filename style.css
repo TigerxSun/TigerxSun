@@ -1,3 +1,5 @@
+
+
 header{
    
   a{
@@ -14,6 +16,15 @@ h1{
 }
 
 /* Style the links inside the navigation bar */
+:root{
+  --orange:#946050;
+}
+
+{
+width:100vw;
+background-color:#ac2626;
+}
+
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -36,9 +47,20 @@ h1{
   color: white;
 }
 
+.topnav a::after{
+  content:'';
+  position:absolute;
+  display:block;
+  height:0.4em;
+  width:100%;
+  background-color: var(--orange);
+  bottom: -1em;
+}
+
+
 body{
   height: 100vw;
-    background-color: #946050;
+    background-color: #000000;
     background-size: cover;
     color: rgb(255, 255, 255);
     font-family: 'Gardenia ExtraBold', Times, serif;
